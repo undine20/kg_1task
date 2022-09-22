@@ -14,6 +14,14 @@ public class Cloud {
         this.width = width;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
     public void paint(Graphics2D g) {
         g.setColor(new Color(255, 247, 228));
         GeneralPath gp = new GeneralPath();
